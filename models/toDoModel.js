@@ -7,5 +7,5 @@ var toDoSchema = new mongoose.Schema({
   hasAttachment: Boolean,
 });
 
-var Todos = new mongoose.Model("Todos", toDoSchema);
+var Todos = new mongoose.model("Todos", toDoSchema);
 module.exports = Todos;
